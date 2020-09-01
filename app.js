@@ -42,6 +42,8 @@ function addElement(){
         alert(opacidad);
     })
     
+    //AQUI LA RAMA EJEMPLO
+
     var opacidad = eatMe.style.opacity;
     var intervalo = setInterval(function () {
 
