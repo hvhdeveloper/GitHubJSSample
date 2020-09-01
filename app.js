@@ -40,7 +40,6 @@ function addElement(){
 
     eatMe.addEventListener('click', () => {
         alert(opacidad);
-
     })
     
     var opacidad = eatMe.style.opacity;
