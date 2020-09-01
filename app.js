@@ -18,7 +18,7 @@ function addElement(){
     aElem.innerHTML = "DRINK ME";
     aElem.style.marginLeft = "10px";
 
-    divElem.appendChild(aElem);
+    divElem.appendChild(aElem); //
 
     porcentaje.setAttribute('class', 'aElem');
 
@@ -40,7 +40,7 @@ function addElement(){
 
     eatMe.addEventListener('click', () => {
         alert(opacidad);
-        
+
     })
     
     var opacidad = eatMe.style.opacity;
